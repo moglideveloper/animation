@@ -1,0 +1,36 @@
+---
+title: "VennAnimation"
+author: "moglideveloper"
+date: "12/11/2021"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# animation with 2 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(c("orange", "white", "orange"), c("a-data", "", ""))
+```
+
+# animation with 2 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(c("white", "yellow", "yellow"), c("", "b-data", ""))
+```
+
+
+# animation with 2 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(c("orange", "yellow", "green"), c("a-data", "b-data", "common"))
+```
+
+

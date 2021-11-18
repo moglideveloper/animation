@@ -1,0 +1,43 @@
+---
+title: "VennAnimation"
+author: "moglideveloper"
+date: "12/11/2021"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# animation with 4 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(
+        c("yellow", "white", "white", "white", "yellow", "white", "white", "white", "white", "white"),
+        c("a", "", "", "", "", "", "")
+)
+```
+
+
+# animation with 4 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(
+        c("white", "green", "white", "white", "green", "white", "white", "green", "white", "white"),
+        c("", "b", "", "", "", "")
+)
+```
+
+# animation with 4 sets
+
+```{r}
+source("digramLogic.R", echo = F, prompt.echo = "", spaced = F)
+scene(
+        c("yellow", "green", "white", "white", "pink", "white", "white", "green", "white", "white"),
+        c("a", "b", "", "", "c", "")
+)
+```
